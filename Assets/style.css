@@ -168,7 +168,7 @@ font-size: var(--h1-font-size)
 
 .grid {
     display: grid;
-    gap: 1.5rem;
+    gap: var(--mb-1);
 }
 
 .header {
@@ -1142,11 +1142,10 @@ font-size: var(--h1-font-size)
         width: 270px;
     }
 
-    .about__container,
-    .skills__container,
+   
+
     .portfolio__content,
     .portfolio__container,
-    .contact__container,
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1157,6 +1156,7 @@ font-size: var(--h1-font-size)
         grid-template-columns: .6fr;
         justify-content: center;
     }
+  
 
 }
 
@@ -1169,6 +1169,8 @@ font-size: var(--h1-font-size)
         margin: 0;
 
     }
+
+    
 
     .section {
         padding: 6rem 0 2rem;
@@ -1260,7 +1262,7 @@ font-size: var(--h1-font-size)
     }
 
     .about__img {
-        width: 350px;
+        width: 200px;
     }
     .about__description {
         text-align: initial;
@@ -1469,5 +1471,7 @@ font-size: var(--h1-font-size)
         position: relative;
         justify-content: center;
     }
+
+  
 }
 
